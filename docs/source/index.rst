@@ -22,7 +22,7 @@ topic-trees
    :caption: APIs
 
    Dynamic Classifier Selection <apis/dcs>
-   Dynamic Ensemble Selection <apis/api>
+   Dynamic Ensemble Selection <apis/des>
    
 .. toctree::
    :maxdepth: 2
