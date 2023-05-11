@@ -39,13 +39,13 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 # -- Options for HTML output
+add_module_names = False
+html_show_copyright = False 
+html_show_sphinx = False  
 
 html_theme = "sphinx_thunlp_theme"
 html_codeblock_linenos_style = "table" 
 
-add_module_names = False
-html_show_copyright = False 
-html_show_sphinx = False 
 autodoc_member_order = "groupwise"
 autodoc_typehints = "description"
 html_static_path = ['_static']
