@@ -30,4 +30,4 @@ Selecting one instance
   knorau.predict(query, plot=True)
 
 
-.. image:: images/xai_1.PNG 
+.. image:: ./images/xai_1.PNG 
