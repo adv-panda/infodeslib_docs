@@ -49,4 +49,5 @@ autodoc_typehints = "description"
 html_static_path = ['_static']
 html_css_files = ["css/custom.css"]
 master_doc = 'index' 
-epub_show_urls = 'footnote'
+html_show_copyright = False 
+html_show_sphinx = False 
