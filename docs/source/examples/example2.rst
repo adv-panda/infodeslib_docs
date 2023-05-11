@@ -16,7 +16,7 @@ Initializing
 
   knorau = KNORAU(model_pool, feature_sets, k=7, colors=colors)
   knorau.fit(X_dsel, y_dsel) 
-```
+
 
 Selecting one instance  
 --------------------------  
@@ -29,3 +29,5 @@ Selecting one instance
   ## Make plot=True 
   knorau.predict(query, plot=True)
 
+
+.. image:: images/xai_1.PNG 
