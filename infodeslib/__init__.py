@@ -1,4 +1,1 @@
-from . import des 
-
-from . import dcs  
-from .dcs import OLA
+__all__ = ['des', 'dcs']
