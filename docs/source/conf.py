@@ -43,7 +43,8 @@ add_module_names = False
 html_show_copyright = False 
 html_show_sphinx = False  
 
-html_theme = "sphinx_thunlp_theme"
+html_theme = "sphinx_rtd_theme"
+# html_theme = "sphinx_thunlp_theme"
 html_codeblock_linenos_style = "table" 
 
 autodoc_member_order = "groupwise"
