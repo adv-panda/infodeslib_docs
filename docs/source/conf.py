@@ -40,7 +40,7 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
-html_theme = "sphinx_thunlp_theme"
+html_theme = "sphinx_thunlp_theme1"
 html_codeblock_linenos_style = "table" 
 
 add_module_names = False
