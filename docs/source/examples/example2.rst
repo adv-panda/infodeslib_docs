@@ -43,4 +43,4 @@ The contribution of each selected classifier on the final decision:
 
 The local feature importance of each selected classifier: 
 
-.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_4.PNG 
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_4.png 
