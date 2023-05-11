@@ -30,4 +30,4 @@ Selecting one instance
   knorau.predict(query, plot=True)
 
 
-.. image:: docs/source/images/xai_1.PNG 
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_1.PNG
