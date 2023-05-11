@@ -1,5 +1,5 @@
 ========================
-Basic Usage
+Evaluating the pool of classifiers
 ========================
 
 
