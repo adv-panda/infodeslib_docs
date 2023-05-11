@@ -7,7 +7,7 @@ Overall Local Accuracy (OLA)
 
 .. automodule:: infodeslib.dcs.ola 
 
-.. autoclass:: OLA
+.. autoclass:: infodeslib_docs.infodeslib.dcs.ola.OLA
     :members: __init__
 
 ------------------------------------------------------------------------------- 
