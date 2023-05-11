@@ -116,3 +116,10 @@ Average diversity of classifiers in the pool on validation data:
    knorau.get_pool_diversity("DM") 
    
 .. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/feature2.PNG
+
+* "Q": "Q-statistic"
+* "CC": "Correlation Coefficient" 
+* "DM": "Disagreement Measure"
+* "DF": "Double Fault"
+* "NDF": "Negative Double Fault" 
+* "RE": "Ratio Errors"
