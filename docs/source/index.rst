@@ -31,6 +31,7 @@ topic-trees
 
    Basic Usage <examples/example1>
    Explainability <examples/example2>
+   Pool Evaluation <examples/example3>
 
 
 project-slogans
