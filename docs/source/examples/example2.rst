@@ -36,3 +36,11 @@ Estimating Region of competence (RoC) in validation dataset
 Detailed information about the selected samples in RoC: 
 
 .. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_2.PNG
+
+The contribution of each selected classifier on the final decision: 
+
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_3.PNG 
+
+The local feature importance of each selected classifier: 
+
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_4.PNG 
