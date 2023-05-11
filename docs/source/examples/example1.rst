@@ -50,11 +50,11 @@ Split the dataset into training, validation for DES (DSEL) and testing:
 Models and Feature sets Generation  
 -------------------------- 
 
-model1 = SVC(probability=True, random_state=42)
-model2 = RandomForestClassifier(random_state=42) 
-model3 = KNeighborsClassifier()
-
 .. code-block:: python  
+
+   model1 = SVC(probability=True, random_state=42)
+   model2 = RandomForestClassifier(random_state=42) 
+   model3 = KNeighborsClassifier()
 
    feature_set1 = data.feature_names[:10] 
    feature_set2 = data.feature_names[10:20]
