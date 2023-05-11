@@ -30,7 +30,9 @@ Selecting one instance
   knorau.predict(query, plot=True)
 
 Estimating Region of competence (RoC) in validation dataset 
+
 .. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_1.PNG
 
 Detailed information about the selected samples in RoC: 
+
 .. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/xai_2.PNG
