@@ -1,22 +1,61 @@
-Welcome to Lumache's documentation!
-===================================
+=======================================
+Infodeslib
+=======================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+topic-trees
+========================
 
 .. toctree::
+   Home <self>
 
-   usage
-   api
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Getting Started
+
+   Introduction <quickstart/introduction>
+   Installation <quickstart/usage>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: APIs
+
+   Dynamic Classifier Selection <apis/dcs>
+   Dynamic Ensemble Selection <apis/api>
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Examples
+
+   Basic Usage <examples/example1>
+   Explainability <examples/example2>
+
+
+project-slogans
+========================
+
+.. topic:: project slogan short
+    :class: project-slogan-short
+
+    Late Fusion based Dynamic Ensemble Learning library.
+
+.. topic:: project slogan long
+    :class: project-slogan-long
+
+    Infodeslib is open source library focusing the implementation of the state-of-the-art techniques for dynamic classifier and ensemble selection with late fusion setting.
+    This project is under active development. Contributions are welcomed through its GitHub page: https://github.com/adv-panda/infodeslib 
+
+.. image:: images/logo_small.png
+   :class: project-image
+
+.. topic:: install link
+    :class: link-button
+
+    :doc:`Install</quickstart/usage>`
+
+.. topic:: quickstart link
+    :class: link-button
+
+    :doc:`Quick Start</quickstart/introduction>`
