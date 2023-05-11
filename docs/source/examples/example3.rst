@@ -115,3 +115,4 @@ Average diversity of classifiers in the pool on validation data:
 
    knorau.get_pool_diversity("DM") 
    
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/feature2.PNG
