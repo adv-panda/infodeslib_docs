@@ -40,7 +40,7 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
-html_theme = "sphinx_thunlp_theme1"
+html_theme = "sphinx_thunlp_theme"
 html_codeblock_linenos_style = "table" 
 
 add_module_names = False
@@ -49,4 +49,4 @@ autodoc_typehints = "description"
 html_static_path = ['_static']
 html_css_files = ["css/custom.css"]
 master_doc = 'index' 
-
+epub_show_urls = 'footnote'
