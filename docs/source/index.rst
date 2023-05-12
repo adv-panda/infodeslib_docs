@@ -32,11 +32,7 @@ Infodeslib
 
 ========================
 
-    :class: project-slogan-short
-
     Late Fusion based Dynamic Ensemble Learning library.
-
-    :class: project-slogan-long
 
     Infodeslib is open source library focusing the implementation of the state-of-the-art techniques for dynamic classifier and ensemble selection with late fusion setting.
     This project is under active development. Contributions are welcomed through its GitHub page: https://github.com/adv-panda/infodeslib 
@@ -44,10 +40,6 @@ Infodeslib
 .. image:: images/logo_small.png
    :class: project-image
 
-    :class: link-button
-
     :doc:`Install</quickstart/usage>`
-
-    :class: link-button
 
     :doc:`Quick Start</quickstart/introduction>`
