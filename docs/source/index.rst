@@ -46,7 +46,9 @@ This project is under active development. Contributions are welcomed through its
 Here we present an example of the KNORA-E techniques using a random forest to generate the pool of classifiers: 
 
 .. code-block:: python 
-
+   
+   from infodeslib.des.knorau import KNORAU  
+   
    pool_classifiers = [classifier1, ..., classifierN]
    # feature_set1 is a list of columns 
    feature_sets = [feature_set1, ..., feature_setN] 
