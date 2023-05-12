@@ -4,7 +4,9 @@ Dynamic Classifier Selection
 
 Overall Local Accuracy (OLA) 
 ------------------------ 
-
+classdeslib.dcs.ola.OLA(self, pool_classifiers=None, feature_subsets=None, k=7, DFP=False, knn_metric='minkowski',
+                        dimensionality_reduction=False, reduction_technique='pca', n_components = 5, cbr_features = None, 
+                        colors=None) 
 Parameters
 ----------
         pool_classifiers : list of classifiers (Default = None)
@@ -12,10 +14,36 @@ Parameters
                 classification problem. Each base classifiers should support the method
                 "predict". If None, then the pool of classifiers is a bagging
                 classifier.
+        
+        feature_subsets : list of feature sets (Default = None)
+                Each feature set is a list of features (str) and assigned to each classifier in the pool.  
 
         k : int (Default = 7)
                 Number of neighbors used to estimate the competence of the base
                 classifiers. 
+        
+        DFP : Boolean (Default = False)
+                Determines if the dynamic frienemy pruning is applied.   
+                
+        knn_metric: str or callable {'minkowski', 'cosine', 'manhattan', 'euclidean'}  (Default = 'minkowski') 
+                The metric used by the k-NN classifier to estimate distances. 
+        
+        dimensionality_reduction : boolean (Default = False)  
+                Determines if dimention reduction is applied or not. 
+        
+        reduction_technique : str or callable {'pca', 'kernel_pca'} (Default = 'pca') 
+                A technique utilized for dimension reduction. 
+        
+        n_components : int (Default = 5)  
+                Number of components to keep after applying dimension reduction.  
+        
+        cbr_features : list of features (Default = None) 
+                A list of features to show for Cased-based reasoning XAI. 
+        
+        colors : dict (Default = None)  
+                A dictionary of assigning colors for each class  
+        
+            
         
 ------------------------------------------------------------------------------- 
 
