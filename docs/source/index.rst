@@ -40,3 +40,25 @@ This project is under active development. Contributions are welcomed through its
 :doc:`Install</quickstart/usage>`
 
 :doc:`Quick Start</quickstart/introduction>`
+
+
+**Example** 
+Here we present an example of the KNORA-E techniques using a random forest to generate the pool of classifiers: 
+
+.. code-block:: python 
+
+   pool_classifiers = [classifier1, ..., classifierN]
+   # feature_set1 is a list of columns 
+   feature_sets = [feature_set1, ..., feature_setN] 
+
+   # Initialize the DS model
+   knorau = KNORAU(pool_classifiers, feature_sets)
+
+   # Fit the dynamic selection model
+   knorau.fit(X_dsel, y_dsel) 
+
+   # Predict new examples
+   knorau.predict(X_test, plot=True)
+
+   # Check performance (based on accuracy)
+   knorau.score(X_test, y_test) 
