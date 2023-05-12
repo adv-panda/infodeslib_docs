@@ -6,9 +6,9 @@ Overall Local Accuracy (OLA)
 ------------------------ 
 .. code-block:: python  
 
-class deslib.dcs.ola.OLA(self, pool_classifiers=None, feature_subsets=None, k=7, DFP=False, knn_metric='minkowski',
-                         dimensionality_reduction=False, reduction_technique='pca', n_components = 5, cbr_features = None, 
-                         colors=None) 
+  class deslib.dcs.ola.OLA(self, pool_classifiers=None, feature_subsets=None, k=7, DFP=False, knn_metric='minkowski',
+                           dimensionality_reduction=False, reduction_technique='pca', n_components = 5, cbr_features = None, 
+                           colors=None) 
                         
 The OLA technique determines the competency of each classifier by measuring its accuracy in predicting labels within the area of competence around a given test sample. It then chooses the most competent classifier to predict the label of the sample. If multiple classifiers have the same level of competence, the one evaluated first is selected. The method for selecting the classifier can be changed by adjusting the hyper-parameter selection_method. 
 
