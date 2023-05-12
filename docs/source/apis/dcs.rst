@@ -16,8 +16,8 @@ Overall Local Accuracy (OLA)
                         
 The OLA technique determines the competency of each classifier by measuring its accuracy in predicting labels within the area of competence around a given test sample. It then chooses the most competent classifier to predict the label of the sample. If multiple classifiers have the same level of competence, the one evaluated first is selected. The method for selecting the classifier can be changed by adjusting the hyper-parameter selection_method. 
 
-Parameters
-----------
+**Parameters**
+
         pool_classifiers : list of classifiers (Default = None)
                 The generated_pool of classifiers trained for the corresponding
                 classification problem. Each base classifiers should support the method
@@ -67,8 +67,8 @@ Local Class Accuracy (LCA)
                         
 The LCA technique measures the competency of each classifier by evaluating its accuracy in predicting the label of a test sample with respect to a particular output class. The classifier's competence level is estimated by the percentage of local training samples, assigned to that output class, which it correctly predicts. The most competent classifier is then chosen to predict the label of the test sample. If more than one classifier has the same level of competence, the first evaluated one is selected. The selection methodology can be adjusted by modifying the hyper-parameter selection_method.
 
-Parameters
-----------
+**Parameters**
+
         pool_classifiers : list of classifiers (Default = None)
                 The generated_pool of classifiers trained for the corresponding
                 classification problem. Each base classifiers should support the method
@@ -117,8 +117,8 @@ Modified Local Accuracy (MLA)
                         
 The MLA approach is similar to LCA but takes into account the distance between the test sample and each pattern in the region of competence to weight the output of each base classifier. The classifier with the highest competence level is selected to predict the label of the test sample, and if multiple classifiers have the same competence level, the first evaluated one is chosen. The selection methodology can be modified by adjusting the hyper-parameter selection_method.
 
-Parameters
-----------
+**Parameters**
+
         pool_classifiers : list of classifiers (Default = None)
                 The generated_pool of classifiers trained for the corresponding
                 classification problem. Each base classifiers should support the method
@@ -166,8 +166,8 @@ Modified Rank (Rank)
                         
 The Modified Classifier Rank method evaluates the competency level of each classifier and selects the most competent one to predict the label of a test sample. Competence is measured by counting the number of correctly classified samples starting from the closest neighbor of the test sample. The classifier with the highest number of correctly classified samples is deemed the most competent and chosen to predict the label. If multiple classifiers have the same level of competence, the first evaluated one is selected. The selection methodology can be adjusted by modifying the hyper-parameter selection_method.
 
-Parameters
-----------
+**Parameters**
+
         pool_classifiers : list of classifiers (Default = None)
                 The generated_pool of classifiers trained for the corresponding
                 classification problem. Each base classifiers should support the method
@@ -202,4 +202,3 @@ Parameters
         colors : dict (Default = None)  
                 A dictionary of assigning colors for each class  
                 
-------------------------------------------------------------------------------- 
