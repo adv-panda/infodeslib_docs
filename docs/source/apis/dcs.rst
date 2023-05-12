@@ -7,15 +7,15 @@ Overall Local Accuracy (OLA)
 
 Parameters
 ----------
-pool_classifiers : list of classifiers (Default = None)
-        The generated_pool of classifiers trained for the corresponding
-        classification problem. Each base classifiers should support the method
-        "predict". If None, then the pool of classifiers is a bagging
-        classifier.
+        pool_classifiers : list of classifiers (Default = None)
+                The generated_pool of classifiers trained for the corresponding
+                classification problem. Each base classifiers should support the method
+                "predict". If None, then the pool of classifiers is a bagging
+                classifier.
 
-k : int (Default = 7)
-        Number of neighbors used to estimate the competence of the base
-        classifiers. 
+        k : int (Default = 7)
+                Number of neighbors used to estimate the competence of the base
+                classifiers. 
         
 ------------------------------------------------------------------------------- 
 
