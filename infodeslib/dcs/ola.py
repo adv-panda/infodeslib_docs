@@ -22,6 +22,9 @@ sns.set_style("whitegrid")
 class OLA: 
     """
     Late Fusion version of Overall Local Accuracy (OLA). 
+    
+    Parameters
+    ----------
     k : int (Default = 7)
         Number of neighbors used to estimate the competence of the base classifiers. 
     DFP : Boolean (Default = False)
