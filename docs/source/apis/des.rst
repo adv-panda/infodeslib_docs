@@ -13,8 +13,8 @@ Dynamic Ensemble Selection Performance (DESP)
                         
 The DES-P technique selects all base classifiers whose classification performance in the region of competence exceeds that of a random classifier (RC). The RC's performance is calculated as RC = 1/L, where L is the number of classes in the problem. If none of the base classifiers meet the criteria, the entire pool of classifiers is used for classification.
 
-Parameters
-----------
+**Parameters**
+
         pool_classifiers : list of classifiers (Default = None)
                 The generated_pool of classifiers trained for the corresponding
                 classification problem. Each base classifiers should support the method
