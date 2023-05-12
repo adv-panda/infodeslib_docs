@@ -5,7 +5,6 @@ Infodeslib
 topic-trees
 ========================
 
-..
 .. toctree::
    Home <self>
    
