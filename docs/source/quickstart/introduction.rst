@@ -31,3 +31,18 @@ Infodeslib has a wide range of uses, including:
 
 ✅ Providing various handy **metric** for evaluating test sample: rareness score; 
 
+
+Dynamic Classifier Selection 
+======================
+
+Dynamic Classifier Selection (DCS) is a technique used in machine learning ensembles, where the most appropriate classifier or a subset of classifiers is selected for each new sample to be classified. This is done dynamically, based on the characteristics of the input data, with the goal of improving the overall classification performance of the ensemble. DCS algorithms typically use measures of classifier competence, which are estimates of the accuracy of each classifier for the given input data, to decide which classifier or subset of classifiers to use. 
+
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/dcs_diagram.png
+
+
+Dynamic Ensemble Selection 
+======================
+
+Dynamic Ensemble Selection (DES) is a method for improving the performance of ensemble learning by dynamically selecting a subset of base classifiers that are most competent in classifying a given test sample. The selection is based on the performance of each classifier in the region of competence, which is determined using k-NN algorithm. The DES approach aims to balance the accuracy and diversity of the selected ensemble of classifiers to improve the overall prediction performance. 
+
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/des_diagram.png
