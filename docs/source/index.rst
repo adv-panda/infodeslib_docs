@@ -2,12 +2,8 @@
 Infodeslib
 =======================================
 
-topic-trees
 ========================
 
-.. toctree::
-   Home <self>
-   
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -34,15 +30,12 @@ topic-trees
    Pool Evaluation <examples/example3>
    Test instance Evaluation <examples/example4>
 
-project-slogans
 ========================
 
-.. topic:: project slogan short
     :class: project-slogan-short
 
     Late Fusion based Dynamic Ensemble Learning library.
 
-.. topic:: project slogan long
     :class: project-slogan-long
 
     Infodeslib is open source library focusing the implementation of the state-of-the-art techniques for dynamic classifier and ensemble selection with late fusion setting.
@@ -51,12 +44,10 @@ project-slogans
 .. image:: images/logo_small.png
    :class: project-image
 
-.. topic:: install link
     :class: link-button
 
     :doc:`Install</quickstart/usage>`
 
-.. topic:: quickstart link
     :class: link-button
 
     :doc:`Quick Start</quickstart/introduction>`
