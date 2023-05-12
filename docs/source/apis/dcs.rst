@@ -4,6 +4,7 @@ Dynamic Classifier Selection
 
 Dynamic Classifier Selection (DCS) is a technique used in machine learning ensembles, where the most appropriate classifier or a subset of classifiers is selected for each new sample to be classified. This is done dynamically, based on the characteristics of the input data, with the goal of improving the overall classification performance of the ensemble. DCS algorithms typically use measures of classifier competence, which are estimates of the accuracy of each classifier for the given input data, to decide which classifier or subset of classifiers to use. 
 
+.. image:: https://raw.githubusercontent.com/adv-panda/infodeslib_docs/main/docs/source/images/dcs_diagram.png 
 
 Overall Local Accuracy (OLA) 
 ------------------------ 
