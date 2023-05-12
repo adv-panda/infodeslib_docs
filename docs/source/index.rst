@@ -5,8 +5,10 @@ Infodeslib
 topic-trees
 ========================
 
+..
 .. toctree::
    Home <self>
+.. 
 
 .. toctree::
    :maxdepth: 1
