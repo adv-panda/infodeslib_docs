@@ -7,7 +7,7 @@ topic-trees
 
 .. toctree::
    Home <self>
-
+   
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -22,7 +22,7 @@ topic-trees
    :caption: APIs
 
    Dynamic Classifier Selection <apis/dcs>
-   Dynamic Ensemble Selection <apis/api>
+   Dynamic Ensemble Selection <apis/des>
    
 .. toctree::
    :maxdepth: 2
@@ -31,7 +31,8 @@ topic-trees
 
    Basic Usage <examples/example1>
    Explainability <examples/example2>
-
+   Pool Evaluation <examples/example3>
+   Test instance Evaluation <examples/example4>
 
 project-slogans
 ========================
