@@ -2,8 +2,6 @@
 Infodeslib
 =======================================
 
-========================
-
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -32,14 +30,13 @@ Infodeslib
 
 ========================
 
-    Late Fusion based Dynamic Ensemble Learning library.
+Late Fusion based Dynamic Ensemble Learning library.
 
-    Infodeslib is open source library focusing the implementation of the state-of-the-art techniques for dynamic classifier and ensemble selection with late fusion setting.
-    This project is under active development. Contributions are welcomed through its GitHub page: https://github.com/adv-panda/infodeslib 
+Infodeslib is open source library focusing the implementation of the state-of-the-art techniques for dynamic classifier and ensemble selection with late fusion setting.
+This project is under active development. Contributions are welcomed through its GitHub page: https://github.com/adv-panda/infodeslib 
 
 .. image:: images/logo_small.png
-   :class: project-image
 
-    :doc:`Install</quickstart/usage>`
+:doc:`Install</quickstart/usage>`
 
-    :doc:`Quick Start</quickstart/introduction>`
+:doc:`Quick Start</quickstart/introduction>`
