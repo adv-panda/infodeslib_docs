@@ -43,6 +43,7 @@ This project is under active development. Contributions are welcomed through its
 
 
 **Example** 
+
 Here we present an example of the KNORA-U techniques using a random forest to generate the pool of classifiers: 
 
 .. code-block:: python 
