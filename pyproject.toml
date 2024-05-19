@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "infodeslib"
-authors = [{name = "Anonymous", email = "anonymous@gmail.com"}]
+authors = [{name = "Anonymous User", email = "anonymous@gmail.com"}]
 dynamic = ["version", "description"]
